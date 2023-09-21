@@ -1,3 +1,20 @@
+map: https://github.com/tunnima/my-docs
+```text
+روی همراه اول تست نشده
+```
+# installation:
+https://pypi.org/project/pytunnel/
+
+**server A.A.A.A:**
+```text
+python3 -m pytunnel --bind 0.0.0.0:8001
+```
+**client B.B.B.B:**
+```text
+python3 -m pytunnel --port 3124 --target 127.0.0.1:4445 --server 37.152.185.228:8002
+```
+
+# MAIN:
 pytunnel
 ===============
 A TCP tunnel server/client by Python.
